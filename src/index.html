@@ -7,44 +7,66 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Fontawesome CSS // Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>texView</title>
 </head>
-<body>
-<div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-        <h5 class="text-white h4">Collapsed content<i class="fas fa-search"></i></h5>
-        <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-</div>
 
+<body>
+<!-- Navbar -->
 <div class="pos-f-t position-sticky">
     <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sliderLeft" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-
-
         </button>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <h2 class="text-light">texView</h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sliderRight" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fas fa-search"></span>
         </button>
     </nav>
 </div>
-<ul class="nav nav-tabs">
-    <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </li>
-</ul>
+
+<!-- Slider Left -->
+<div class="collapse wrapper" id="sliderLeft">
+    <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+</div>
+
+<!-- Slider Right --><!--
+<div class="wrapper bg-dark">
+<p>sdgnsdfgljknknsdfgljkndsfglkjn</p>
+</div>-->
+
+<div class="collapse wrapperRight" id="sliderRight">
+    <div class="bg-dark p-4">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- Sidebar -->
+
+
+<!-- Main Content --->
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

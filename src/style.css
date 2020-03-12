@@ -1,0 +1,14 @@
+.wrapper{
+    position: fixed;
+    display: grid;
+    width: 25%;
+    height: 100%;
+}
+
+.wrapperRight{
+    position: fixed;
+    display: grid;
+    width: 25%;
+    height: 100%;
+    right: 0;
+}
